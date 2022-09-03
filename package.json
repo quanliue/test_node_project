@@ -1,0 +1,23 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kris Hill",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^0.27.2",
+    "diskinfo": "0.0.3",
+    "express": "^4.18.1",
+    "fs-hard-drive": "^1.0.0",
+    "superagent": "^8.0.0",
+    "system-disk": "^1.1.2",
+    "unzipper": "^0.10.11",
+    "usb-detection": "^4.14.1"
+  }
+}
